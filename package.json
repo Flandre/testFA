@@ -1,0 +1,23 @@
+{
+  "name": "fat",
+  "version": "1.0.0",
+  "description": "shikong is baka",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flandre/testFA.git"
+  },
+  "author": "Flandre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flandre/testFA/issues"
+  },
+  "homepage": "https://github.com/Flandre/testFA#readme",
+  "devDependencies": {
+    "font-awesome": "^4.5.0",
+    "fontmin": "^0.9.4"
+  }
+}
