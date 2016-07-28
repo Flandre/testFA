@@ -1,0 +1,82 @@
+@import "../../node_modules/font-awesome/less/variables.less";
+@fa-font-path:        "fonts";
+@import "../../node_modules/font-awesome/less/mixins.less";
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('@{fa-font-path}/fontawesome-webfont.eot?v=@{fa-version}');
+  src: url('@{fa-font-path}/fontawesome-webfont.eot?#iefix&v=@{fa-version}') format('embedded-opentype'),
+  url('@{fa-font-path}/fontawesome-webfont.woff?v=@{fa-version}') format('woff'),
+  url('@{fa-font-path}/fontawesome-webfont.ttf?v=@{fa-version}') format('truetype'),
+  url('@{fa-font-path}/fontawesome-webfont.svg?v=@{fa-version}#fontawesomeregular') format('svg');
+  //  src: url('@{fa-font-path}/FontAwesome.otf') format('opentype'); // used when developing fonts
+  font-weight: normal;
+  font-style: normal;
+}
+@import "../../node_modules/font-awesome/less/core.less";
+@import "../../node_modules/font-awesome/less/larger.less";
+@import "../../node_modules/font-awesome/less/fixed-width.less";
+@import "../../node_modules/font-awesome/less/list.less";
+@import "../../node_modules/font-awesome/less/bordered-pulled.less";
+@import "../../node_modules/font-awesome/less/animated.less";
+@import "../../node_modules/font-awesome/less/rotated-flipped.less";
+@import "../../node_modules/font-awesome/less/stacked.less";
+
+.@{fa-css-prefix}-weixin:before { content: @fa-var-weixin; }
+.@{fa-css-prefix}-credit-card:before { content: @fa-var-credit-card; }
+.@{fa-css-prefix}-credit-card-alt:before { content: @fa-var-credit-card-alt; }
+.@{fa-css-prefix}-cart-plus:before { content: @fa-var-cart-plus; }
+.@{fa-css-prefix}-filter:before { content: @fa-var-filter; }
+.@{fa-css-prefix}-shopping-cart:before { content: @fa-var-shopping-cart; }
+.@{fa-css-prefix}-chevron-up:before { content: @fa-var-chevron-up; }
+.@{fa-css-prefix}-chevron-down:before { content: @fa-var-chevron-down; }
+.@{fa-css-prefix}-chevron-left:before { content: @fa-var-chevron-left; }
+.@{fa-css-prefix}-chevron-right:before { content: @fa-var-chevron-right; }
+.@{fa-css-prefix}-share-alt:before { content: @fa-var-share-alt; }
+.@{fa-css-prefix}-share-square-o:before { content: @fa-var-share-square-o; }
+.@{fa-css-prefix}-search:before { content: @fa-var-search; }
+.@{fa-css-prefix}-times:before { content: @fa-var-times; }
+.@{fa-css-prefix}-times-circle { content: @fa-var-times-circle; }
+.@{fa-css-prefix}-mobile:before { content: @fa-var-mobile; }
+.@{fa-css-prefix}-spinner:before { content: @fa-var-spinner; }
+.@{fa-css-prefix}-th-large:before { content: @fa-var-th-large; }
+.@{fa-css-prefix}-home:before { content: @fa-var-home; }
+.@{fa-css-prefix}-list:before { content: @fa-var-list; }
+.@{fa-css-prefix}-user:before { content: @fa-var-user; }
+.@{fa-css-prefix}-users:before {content: @fa-var-users; }
+.@{fa-css-prefix}-caret-down:before { content: @fa-var-caret-down; }
+.@{fa-css-prefix}-caret-up:before { content: @fa-var-caret-up; }
+.@{fa-css-prefix}-plus:before { content: @fa-var-plus; }
+.@{fa-css-prefix}-angle-down:before { content: @fa-var-angle-down; }
+.@{fa-css-prefix}-angle-left:before { content: @fa-var-angle-left; }
+.@{fa-css-prefix}-angle-right:before { content: @fa-var-angle-right; }
+.@{fa-css-prefix}-angle-up:before { content: @fa-var-angle-up; }
+.@{fa-css-prefix}-arrow-up:before { content: @fa-var-arrow-up; }
+.@{fa-css-prefix}-arrow-down:before { content: @fa-var-arrow-down; }
+.@{fa-css-prefix}-check-circle:before { content: @fa-var-check-circle; }
+.@{fa-css-prefix}-check:before { content: @fa-var-check; }
+.@{fa-css-prefix}-minus:before { content: @fa-var-minus; }
+.@{fa-css-prefix}-heart-o:before { content: @fa-var-heart-o; }
+.@{fa-css-prefix}-heart:before { content: @fa-var-heart; }
+.@{fa-css-prefix}-star:before { content: @fa-var-star; }
+.@{fa-css-prefix}-star-o:before { content: @fa-var-star-o; }
+.@{fa-css-prefix}-pencil:before { content: @fa-var-pencil; }
+.@{fa-css-prefix}-pencil-square-o:before { content: @fa-var-pencil-square-o; }
+.@{fa-css-prefix}-trash:before { content: @fa-var-trash; }
+.@{fa-css-prefix}-asterisk:before {content: @fa-var-asterisk; }
+.@{fa-css-prefix}-exclamation-triangle:before { content: @fa-var-exclamation-triangle; }
+.@{fa-css-prefix}-question-circle:before { content: @fa-var-question-circle; }
+.@{fa-css-prefix}-file-text-o:before { content: @fa-var-file-text-o; }
+.@{fa-css-prefix}-fatabase:before { content: @fa-var-database; }
+.@{fa-css-prefix}-files-o:before { content: @fa-var-files-o; }
+.@{fa-css-prefix}-link:before { content: @fa-var-link; }
+.@{fa-css-prefix}-cog:before { content: @fa-var-cog; }
+.@{fa-css-prefix}-qrcode:before { content: @fa-var-qrcode; }
+.@{fa-css-prefix}-file-image-o:before { content: @fa-var-file-image-o; }
+.@{fa-css-prefix}-search-plus:before { content: @fa-var-search-plus; }
+.@{fa-css-prefix}-search-minus:before { content: @fa-var-search-minus; }
+.@{fa-css-prefix}-gift:before { content: @fa-var-gift; }
+.@{fa-css-prefix}-newspaper-o:before { content: @fa-var-newspaper-o; }
+.@{fa-css-prefix}-key:before { content: @fa-var-key; }
+.@{fa-css-prefix}-book:before { content: @fa-var-book; }
+.@{fa-css-prefix}-circle-thin:before {content: @fa-var-circle-thin; }
+.@{fa-css-prefix}-info-circle:before {content: @fa-var-info-circle; }
