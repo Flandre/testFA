@@ -2,6 +2,10 @@ var Fontmin = require('fontmin');
 
 var fontmin = [];
 var fontType = ['ttf', 'eot', 'svg', 'woff'];
+for(var k in fontType){
+
+}
+
 for(var i = 0; i < fontType.length; i++){
   fontmin[i] = new Fontmin();
   fontmin[i].src('./node_modules/font-awesome/fonts/fontawesome-webfont.' + fontType[i])
